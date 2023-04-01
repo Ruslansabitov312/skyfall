@@ -1,4 +1,6 @@
 {
+  "decrement": "decrement",
+  "increment": "increment",
   "throw erro": "throw erro",
   "throw error": "throw error",
   "Войти": "Войти",

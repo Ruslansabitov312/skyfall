@@ -28,6 +28,7 @@ export const Navbar = ({ className }: NavbarProps) => {
                 {t('Войти')}
             </Button>
             <Modal isOpen={isAuthModal} onClose={onToggleModal}>
+                {/* eslint-disable-next-line i18next/no-literal-string */}
                 {/* eslint-disable-next-line */}
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi atque beatae consequatur culpa cupiditate dicta distinctio doloremque eligendi, eum ex excepturi in minima nemo neque nisi, numquam optio provident quaerat quisquam repellendus, saepe sed sunt tempore tenetur ut vero! At consequuntur corporis cupiditate eveniet molestias quod repellendus ullam ut?
             </Modal>
