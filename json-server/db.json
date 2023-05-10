@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "firstname": "Ruslan",
+    "lastname": "Sabitov",
+    "age": 25,
+    "currency": "SOM",
+    "country": "Kyrgyzstan",
+    "city": "Bishkek",
+    "username": "skyfall",
+    "avatar": "https://media-thumbs.golden.com/ZmJ_IKu3lu990Y0AEMnTva3gPus=/200x200/smart/golden-media.s3.amazonaws.com%2Ftopic_images%2F9d7886fae3ed43b087619486434a7f95.jpeg"
+  }
 }
