@@ -8,6 +8,7 @@
   "Обновить страницу": "Reload page",
   "throw error": "throw error",
   "Главная": "Main",
+  "Профиль": "Profile",
   "О сайте": "About us",
   "Переключить": "Switch",
   "Короткий язык": "En",
@@ -19,5 +20,7 @@
   "Форма авторизации": "Auth form",
   "Вы ввели неверный логин или пароль": "Incorrect username or password",
   "Выйти": "Logout",
-  "PROFILE PAGE": "PROFILE PAGE"
+  "PROFILE PAGE": "PROFILE PAGE",
+  "Укажите валюту": "Укажите валюту",
+  "Укажите страну": "Укажите страну"
 }
