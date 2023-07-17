@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -106,6 +108,36 @@
       "text": "comment by user",
       "articleId": "1",
       "userId": "2"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Test comment",
+      "id": "ckvixI3"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "dsa",
+      "id": "9Fgcpic"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "dsadsa",
+      "id": "fqsMIWz"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "dsa",
+      "id": "SMDrxEE"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "dsa",
+      "id": "1WOr5VC"
     }
   ],
   "users": [
@@ -121,17 +153,31 @@
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://images.freeimages.com/365/images/previews/85b/psd-universal-blue-web-user-icon-53242.jpg"
+      "avatar": "https://i.guim.co.uk/img/media/f9ea33edca9b75c81444946e6afc11dad541e228/0_0_3094_1857/master/3094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96677342cb72e720f81c8a6e7167ccfd"
     }
   ],
-  "profile": {
-    "firstname": "Ruslan",
-    "lastname": "Sabitov",
-    "age": 25,
-    "currency": "SOM",
-    "country": "Kyrgyzstan",
-    "city": "Bishkek",
-    "username": "skyfall",
-    "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "firstname": "Ruslan",
+      "lastname": "Sabitov",
+      "age": 25,
+      "currency": "SOM",
+      "country": "Kyrgyzstan",
+      "city": "Bishkek",
+      "username": "admin",
+      "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
+    },
+    {
+      "id": "2",
+      "firstname": "Mark",
+      "lastname": "Zuckerberg",
+      "age": 40,
+      "currency": "USD",
+      "country": "Ukraine",
+      "city": "Bishkek",
+      "username": "user",
+      "avatar": "https://i.guim.co.uk/img/media/f9ea33edca9b75c81444946e6afc11dad541e228/0_0_3094_1857/master/3094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96677342cb72e720f81c8a6e7167ccfd"
+    }
+  ]
 }
