@@ -138,6 +138,12 @@
       "userId": "2",
       "text": "dsa",
       "id": "1WOr5VC"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Meow meow",
+      "id": "iubNao9"
     }
   ],
   "users": [
@@ -159,8 +165,8 @@
   "profile": [
     {
       "id": "1",
-      "firstname": "Ruslan",
-      "lastname": "Sabitov",
+      "firstname": "Rus",
+      "lastname": "Sab",
       "age": 25,
       "currency": "SOM",
       "country": "Kyrgyzstan",
