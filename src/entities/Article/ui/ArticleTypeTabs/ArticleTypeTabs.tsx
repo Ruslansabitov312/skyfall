@@ -25,7 +25,7 @@ export const ArticleTypeTabs = memo((props: ArticleTypeTabsProps) => {
         },
         {
             value: ArticleType.SCIENCE,
-            content: t('Наука'),
+            content: t('Научные'),
         },
         {
             value: ArticleType.ECONOMICS,
