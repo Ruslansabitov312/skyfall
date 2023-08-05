@@ -48,7 +48,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
                     {t('Создать статью')}
                 </AppLink>
                 <Button
-                    theme={ButtonTheme.BACKGROUND_INVERTED}
+                    theme={ButtonTheme.CLEAR_INVERTED}
                     className={cls.links}
                     onClick={onLogout}
                 >
@@ -61,7 +61,7 @@ export const Navbar = memo(({ className }: NavbarProps) => {
     return (
         <header className={classNames(cls.Navbar, {}, [className])}>
             <Button
-                theme={ButtonTheme.BACKGROUND_INVERTED}
+                theme={ButtonTheme.CLEAR_INVERTED}
                 className={cls.links}
                 onClick={onShowModal}
             >
