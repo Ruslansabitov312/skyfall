@@ -7,7 +7,8 @@
     padding: 20px;
 }
 
-.links {
+.links,
+.dropdown {
     margin-left: auto;
 }
 
@@ -18,4 +19,8 @@
 .appName {
     width: var(--sidebar-width);
     margin-left: 15px;
+}
+
+.ava {
+    box-shadow: 0 0 2px 2px var(--bg-color);
 }
