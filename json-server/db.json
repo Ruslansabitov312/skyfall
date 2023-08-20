@@ -1579,6 +1579,24 @@
       "userId": "1",
       "text": "dsa",
       "id": "CfKYmTm"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "da",
+      "id": "bhj3w8k"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "Germany",
+      "id": "BpKhiOG"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "das",
+      "id": "wmVEw4_"
     }
   ],
   "users": [
@@ -1600,11 +1618,11 @@
   "profile": [
     {
       "id": "1",
-      "firstname": "Ruslan",
-      "lastname": "Sabitov",
-      "age": 25,
-      "currency": "SOM",
-      "country": "Kyrgyzstan",
+      "firstname": "Rus",
+      "lastname": "Sab",
+      "age": 33,
+      "currency": "USD",
+      "country": "Armenia",
       "city": "Bishkek",
       "username": "admin",
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
