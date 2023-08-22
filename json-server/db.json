@@ -1604,25 +1604,38 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN",
+      "roles": [
+        "ADMIN"
+      ],
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
-      "role": "USER",
+      "roles": [
+        "USER"
+      ],
       "avatar": "https://i.guim.co.uk/img/media/f9ea33edca9b75c81444946e6afc11dad541e228/0_0_3094_1857/master/3094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96677342cb72e720f81c8a6e7167ccfd"
+    },
+    {
+      "id": "3",
+      "username": "manager",
+      "password": "123",
+      "roles": [
+        "MANAGER"
+      ],
+      "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
     }
   ],
   "profile": [
     {
       "id": "1",
-      "firstname": "Rus",
-      "lastname": "Sab",
-      "age": 33,
-      "currency": "USD",
-      "country": "Armenia",
+      "firstname": "Ruslan",
+      "lastname": "Sabitov",
+      "age": 25,
+      "currency": "SOM",
+      "country": "Kyrgyzstan",
       "city": "Bishkek",
       "username": "admin",
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
@@ -1637,6 +1650,17 @@
       "city": "Bishkek",
       "username": "user",
       "avatar": "https://i.guim.co.uk/img/media/f9ea33edca9b75c81444946e6afc11dad541e228/0_0_3094_1857/master/3094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96677342cb72e720f81c8a6e7167ccfd"
+    },
+    {
+      "id": "3",
+      "firstname": "Manager",
+      "lastname": "Baike",
+      "age": 24,
+      "currency": "USD",
+      "country": "Ukraine",
+      "city": "Bishkek",
+      "username": "manager",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
     }
   ]
 }
