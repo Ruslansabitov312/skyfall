@@ -1649,6 +1649,24 @@
       "userId": "1",
       "text": "das",
       "id": "__6EUL1"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "das",
+      "id": "xyv3wBV"
+    },
+    {
+      "articleId": "7",
+      "userId": "1",
+      "text": "123",
+      "id": "AZCHDKr"
+    },
+    {
+      "articleId": "20",
+      "userId": "1",
+      "text": "d",
+      "id": "T5SDP-z"
     }
   ],
   "users": [
@@ -1713,6 +1731,51 @@
       "city": "Bishkek",
       "username": "manager",
       "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
+    }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 5,
+      "feedback": "Полезная статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 1,
+      "feedback": "Скучная статья",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "userId": "1",
+      "articleId": "7",
+      "rate": 1,
+      "feedback": "govno",
+      "id": "T_77qI2"
+    },
+    {
+      "userId": "1",
+      "articleId": "20",
+      "rate": 5,
+      "id": "O5T0xLV"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Прикольный чел",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 2,
+      "feedback": "Скучная чел",
+      "userId": "1",
+      "profileId": "2"
     }
   ]
 }

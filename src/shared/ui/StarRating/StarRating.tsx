@@ -17,12 +17,12 @@ export const StarRating = memo((props: StarRatingProps) => {
     const {
         className, size = 30, selectedStars = 0, onSelect,
     } = props;
-    const [currentStarsCount, setCurrentStarsCount] = useState(0);
+    const [currentStarsCount, setCurrentStarsCount] = useState(selectedStars);
     const [isSelected, setIsSelected] = useState(Boolean(selectedStars));
 
-    const onHover = (startsCount: number) => () => {
+    const onHover = (starsCount: number) => () => {
         if (!isSelected) {
-            setCurrentStarsCount(startsCount);
+            setCurrentStarsCount(starsCount);
         }
     };
 
@@ -32,10 +32,10 @@ export const StarRating = memo((props: StarRatingProps) => {
         }
     };
 
-    const onClick = (startsCount: number) => () => {
+    const onClick = (starsCount: number) => () => {
         if (!isSelected) {
-            onSelect?.(selectedStars);
-            setCurrentStarsCount(startsCount);
+            onSelect?.(starsCount);
+            setCurrentStarsCount(starsCount);
             setIsSelected(true);
         }
     };
