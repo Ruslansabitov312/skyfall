@@ -69,7 +69,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
-        'skyfall-plugin/path-control': 'error',
+        'skyfall-plugin/path-control': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
