@@ -70,7 +70,17 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'skyfall-plugin/path-control': ['error', { alias: '@' }],
-        'skyfall-plugin/public-api-imports': ['error', { alias: '@' }],
+        'skyfall-plugin/public-api-imports': [
+            'error',
+            {
+                alias: '@',
+                testFilesPatterns: [
+                    '**/*.test.*',
+                    '**/*.story.*',
+                    '**/StoreDecorator.tsx',
+                ],
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,
