@@ -70,6 +70,16 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'skyfall-plugin/path-control': ['error', { alias: '@' }],
+        'skyfall-plugin/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: [
+                    '**/StoreProvider',
+                    '**/testing',
+                ],
+            },
+        ],
         'skyfall-plugin/public-api-imports': [
             'error',
             {
