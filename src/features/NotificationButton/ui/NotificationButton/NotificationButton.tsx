@@ -7,7 +7,6 @@ import { Icon } from '@/shared/ui/Icon';
 import { NotificationList } from '@/entities/Notification';
 import NotificationIcon from '@/shared/assets/icons/notification-20-20.svg';
 import { Drawer } from '@/shared/ui/Drawer';
-import { AnimationProvider } from '@/shared/lib/components/AnimationProvider';
 import cls from './NotificationButton.module.scss';
 
 interface NotificationButtonProps {

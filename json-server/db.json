@@ -1679,6 +1679,12 @@
       "userId": "1",
       "text": "Hello world!",
       "id": "V6U_Dsp"
+    },
+    {
+      "articleId": "19",
+      "userId": "1",
+      "text": "Hahah",
+      "id": "ZDc_bIV"
     }
   ],
   "users": [
@@ -1778,6 +1784,13 @@
       "articleId": "18",
       "rate": 3,
       "id": "_TH9KZG"
+    },
+    {
+      "userId": "1",
+      "articleId": "19",
+      "rate": 5,
+      "feedback": "lorem",
+      "id": "CtF44JD"
     }
   ],
   "profile-ratings": [
