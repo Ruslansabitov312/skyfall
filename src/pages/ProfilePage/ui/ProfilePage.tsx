@@ -11,10 +11,10 @@ interface ProfilePageProps {
 
 const ProfilePage = ({ className }: ProfilePageProps) => {
     const { t } = useTranslation('profile');
-    const { id } = useParams<{id: string}>();
+    const { id } = useParams<{ id: string }>();
 
     return (
-        <Page className={classNames('', {}, [className])}>
+        <Page data-testid="ProfilePage" className={classNames('', {}, [className])}>
             <VStack gap="16" max>
                 <EditableProfileCard id={id} />
             </VStack>
