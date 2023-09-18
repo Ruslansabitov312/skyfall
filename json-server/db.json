@@ -1714,6 +1714,15 @@
         "MANAGER"
       ],
       "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
     }
   ],
   "profile": [
