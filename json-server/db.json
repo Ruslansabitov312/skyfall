@@ -1473,6 +1473,110 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Javascript news",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "QkBHr-N"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "A63PGyW"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "3oBwJWo"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "KnQY4YQ"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "1LDRoUj"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "smz623J"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "6F6N0LE"
+    },
+    {
+      "title": "Testing Article",
+      "subtitle": "Что нового в JS за 2022 год?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 882,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [],
+      "id": "-opruqy"
     }
   ],
   "comments": [
@@ -1685,6 +1789,12 @@
       "userId": "1",
       "text": "Hahah",
       "id": "ZDc_bIV"
+    },
+    {
+      "articleId": "6F6N0LE",
+      "userId": "4",
+      "text": "text",
+      "id": "vT36ugk"
     }
   ],
   "users": [
@@ -1757,6 +1867,17 @@
       "country": "Ukraine",
       "city": "Bishkek",
       "username": "manager",
+      "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
+    },
+    {
+      "id": "4",
+      "firstname": "test",
+      "lastname": "user",
+      "age": 24,
+      "currency": "USD",
+      "country": "Ukraine",
+      "city": "Bishkek",
+      "username": "testuser",
       "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
     }
   ],
