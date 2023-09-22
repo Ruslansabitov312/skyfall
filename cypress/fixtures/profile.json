@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "firstname": "test",
+  "lastname": "user",
+  "age": 24,
+  "currency": "USD",
+  "country": "Ukraine",
+  "city": "Bishkek",
+  "username": "testuser",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
+}
