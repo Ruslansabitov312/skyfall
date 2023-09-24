@@ -1,1 +1,24 @@
-{"newItems":[],"deletedItems":[],"passedItems":[],"failedItems":["chrome_iphone7_widgets_Navbar_Auth_Navbar.png","chrome_laptop_widgets_Navbar_Auth_Navbar.png"],"expectedItems":["chrome_iphone7_widgets_Navbar_Auth_Navbar.png","chrome_laptop_widgets_Navbar_Auth_Navbar.png"],"actualItems":["chrome_iphone7_widgets_Navbar_Auth_Navbar.png","chrome_laptop_widgets_Navbar_Auth_Navbar.png"],"diffItems":["chrome_iphone7_widgets_Navbar_Auth_Navbar.png","chrome_laptop_widgets_Navbar_Auth_Navbar.png"],"actualDir":"current","expectedDir":"reference","diffDir":"difference"}
+{
+    "newItems": [],
+    "deletedItems": [],
+    "passedItems": [],
+    "failedItems": [
+        "chrome_iphone7_widgets_Navbar_Auth_Navbar.png",
+        "chrome_laptop_widgets_Navbar_Auth_Navbar.png"
+    ],
+    "expectedItems": [
+        "chrome_iphone7_widgets_Navbar_Auth_Navbar.png",
+        "chrome_laptop_widgets_Navbar_Auth_Navbar.png"
+    ],
+    "actualItems": [
+        "chrome_iphone7_widgets_Navbar_Auth_Navbar.png",
+        "chrome_laptop_widgets_Navbar_Auth_Navbar.png"
+    ],
+    "diffItems": [
+        "chrome_iphone7_widgets_Navbar_Auth_Navbar.png",
+        "chrome_laptop_widgets_Navbar_Auth_Navbar.png"
+    ],
+    "actualDir": "current",
+    "expectedDir": "reference",
+    "diffDir": "difference"
+}

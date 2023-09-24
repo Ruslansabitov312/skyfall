@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof ArticleList>;
 
-const Template: ComponentStory<typeof ArticleList> = (args) => <ArticleList {...args} />;
+const Template: ComponentStory<typeof ArticleList> = (args) => (
+    <ArticleList {...args} />
+);
 
 const article = {
     id: '1',
@@ -27,11 +29,7 @@ const article = {
         username: 'admin',
         avatar: 'https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png',
     },
-    type: [
-        'IT',
-        'SCIENCE',
-        'POLITICS',
-    ],
+    type: ['IT', 'SCIENCE', 'POLITICS'],
     blocks: [
         {
             id: '1',
@@ -110,24 +108,20 @@ LoadingGrid.args = {
 
 export const Grid = Template.bind({});
 Grid.args = {
-    articles: new Array(9)
-        .fill(0)
-        .map((item, index) => ({
-            ...article,
-            id: String(index),
-        })),
+    articles: new Array(9).fill(0).map((item, index) => ({
+        ...article,
+        id: String(index),
+    })),
     isLoading: false,
     view: ArticleView.GRID,
 };
 
 export const List = Template.bind({});
 List.args = {
-    articles: new Array(9)
-        .fill(0)
-        .map((item, index) => ({
-            ...article,
-            id: String(index),
-        })),
+    articles: new Array(9).fill(0).map((item, index) => ({
+        ...article,
+        id: String(index),
+    })),
     isLoading: false,
     view: ArticleView.LIST,
 };

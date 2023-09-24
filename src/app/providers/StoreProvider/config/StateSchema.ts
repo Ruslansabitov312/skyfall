@@ -1,5 +1,8 @@
 import {
-    AnyAction, EnhancedStore, Reducer, ReducersMapObject,
+    AnyAction,
+    EnhancedStore,
+    Reducer,
+    ReducersMapObject,
 } from '@reduxjs/toolkit';
 import { CombinedState } from 'redux';
 import { AxiosInstance } from 'axios';
@@ -15,34 +18,37 @@ import { rtkApi } from '@/shared/api/rtkApi';
 import { ProfileSchema } from '@/features/EditableProfileCard';
 
 export interface StateSchema {
-    counter: CounterSchema,
-    user: UserSchema,
-    scrollRecovery: ScrollRecoverySchema,
-    [rtkApi.reducerPath]: ReturnType<typeof rtkApi.reducer>
+    counter: CounterSchema;
+    user: UserSchema;
+    scrollRecovery: ScrollRecoverySchema;
+    [rtkApi.reducerPath]: ReturnType<typeof rtkApi.reducer>;
 
     // Асинхронные редюсеры
-    loginForm?: LoginSchema
-    profile?: ProfileSchema
-    articleDetails?: ArticleDetailsSchema
-    addCommentForm?: AddCommentFormSchema
-    articlesPage?: ArticlesPageSchema
-    articleDetailsPage?: ArticleDetailsPageSchema
+    loginForm?: LoginSchema;
+    profile?: ProfileSchema;
+    articleDetails?: ArticleDetailsSchema;
+    addCommentForm?: AddCommentFormSchema;
+    articlesPage?: ArticlesPageSchema;
+    articleDetailsPage?: ArticleDetailsPageSchema;
 }
 
 export type StateSchemaKey = keyof StateSchema;
-export type MountedReducers = OptionalRecord<StateSchemaKey, boolean>
+export type MountedReducers = OptionalRecord<StateSchemaKey, boolean>;
 
 export interface reducerManager {
     getReducerMap: () => ReducersMapObject<StateSchema>;
-    reduce: (state: StateSchema, action: AnyAction) => CombinedState<StateSchema>;
+    reduce: (
+        state: StateSchema,
+        action: AnyAction,
+    ) => CombinedState<StateSchema>;
     add: (key: StateSchemaKey, reducer: Reducer) => void;
     remove: (key: StateSchemaKey) => void;
     // true - вмонтирован / false - демонтирован
-    getMountedReducers: () => MountedReducers
+    getMountedReducers: () => MountedReducers;
 }
 
 export interface ReduxStoreWithManager extends EnhancedStore<StateSchema> {
-    reducerManager: reducerManager
+    reducerManager: reducerManager;
 }
 
 export interface ThunkExtraArg {
@@ -50,7 +56,7 @@ export interface ThunkExtraArg {
 }
 
 export interface ThunkConfig<T> {
-    rejectValue: T,
-    extra: ThunkExtraArg,
-    state: StateSchema
+    rejectValue: T;
+    extra: ThunkExtraArg;
+    state: StateSchema;
 }

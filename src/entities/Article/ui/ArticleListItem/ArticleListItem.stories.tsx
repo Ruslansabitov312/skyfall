@@ -13,7 +13,9 @@ export default {
     },
 } as ComponentMeta<typeof ArticleListItem>;
 
-const Template: ComponentStory<typeof ArticleListItem> = (args) => <ArticleListItem {...args} />;
+const Template: ComponentStory<typeof ArticleListItem> = (args) => (
+    <ArticleListItem {...args} />
+);
 
 const article = {
     id: '1',
@@ -27,11 +29,7 @@ const article = {
         username: 'admin',
         avatar: 'https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png',
     },
-    type: [
-        'IT',
-        'SCIENCE',
-        'POLITICS',
-    ],
+    type: ['IT', 'SCIENCE', 'POLITICS'],
     blocks: [
         {
             id: '1',
