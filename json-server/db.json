@@ -1861,6 +1861,11 @@
         "isArticleRatingEnabled": true,
         "isCounterEnabled": true
       },
+      "jsonSettings": {
+        "theme": "app_orange_theme",
+        "isFirstVisit": true,
+        "settingsPageHasBeenOpen": false
+      },
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
     },
     {
@@ -1873,6 +1878,11 @@
       "features": {
         "isArticleRatingEnabled": false,
         "isCounterEnabled": false
+      },
+      "jsonSettings": {
+        "theme": "app_dark_theme",
+        "isFirstVisit": true,
+        "settingsPageHasBeenOpen": false
       },
       "avatar": "https://i.guim.co.uk/img/media/f9ea33edca9b75c81444946e6afc11dad541e228/0_0_3094_1857/master/3094.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=96677342cb72e720f81c8a6e7167ccfd"
     },
@@ -1887,6 +1897,11 @@
         "isArticleRatingEnabled": false,
         "isCounterEnabled": true
       },
+      "jsonSettings": {
+        "theme": "app_dark_theme",
+        "isFirstVisit": true,
+        "settingsPageHasBeenOpen": false
+      },
       "avatar": "https://cdn-icons-png.flaticon.com/512/2503/2503707.png"
     },
     {
@@ -1896,6 +1911,15 @@
       "roles": [
         "ADMIN"
       ],
+      "features": {
+        "isArticleRatingEnabled": false,
+        "isCounterEnabled": true
+      },
+      "jsonSettings": {
+        "theme": "app_dark_theme",
+        "isFirstVisit": true,
+        "settingsPageHasBeenOpen": false
+      },
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
     }
   ],
