@@ -1930,11 +1930,11 @@
   "profile": [
     {
       "id": "1",
-      "firstname": "Rus",
+      "firstname": "Ruslan",
       "lastname": "Sabitov",
       "age": 25,
-      "currency": "USD",
-      "country": "Kazakhstan",
+      "currency": "SOM",
+      "country": "Kyrgyzstan",
       "city": "Bishkek",
       "username": "admin",
       "avatar": "https://www.berlin-smile.de/wp-content/uploads/2020/09/BERLIN-SMILE-Logo.png"
