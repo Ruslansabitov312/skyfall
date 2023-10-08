@@ -1847,6 +1847,12 @@
       "userId": "4",
       "text": "text",
       "id": "vT36ugk"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Lorem",
+      "id": "SKi7gnc"
     }
   ],
   "users": [
@@ -2013,6 +2019,24 @@
       "rate": 5,
       "feedback": "lorem",
       "id": "CtF44JD"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 1,
+      "id": "myuwaYR"
+    },
+    {
+      "userId": "1",
+      "articleId": "6",
+      "rate": 3,
+      "id": "WNG1G2T"
+    },
+    {
+      "userId": "1",
+      "articleId": "10",
+      "rate": 3,
+      "id": "VOg-9oT"
     }
   ],
   "profile-ratings": [
