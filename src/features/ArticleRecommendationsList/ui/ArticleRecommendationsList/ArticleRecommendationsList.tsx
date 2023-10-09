@@ -12,13 +12,6 @@ interface ArticleRecommendationsListProps {
     className?: string;
 }
 
-{
-    TextDeprecated;
-}
-{
-    Text;
-}
-
 export const ArticleRecommendationsList = memo(
     (props: ArticleRecommendationsListProps) => {
         const { className } = props;
